@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha House</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        fieldset{
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Pitha House</h1>
+    </header>
+    
+    <form>
+        <label for="name">Your Name:
+            <input type="text" id="name" placeholder="Your Name">
+        </label>
+        
+        <label for="email">Your Email:
+            <input type="text" id="email" placeholder="Your Email">
+        </label>
+
+        <label for="phone">Your Mobie:
+            <input type="text" id="phonr" placeholder="Your Mobile">
+        </label>
+        
+        <fieldset>
+             <legend>Pick one pitha</legend>
+         <label for="chitoy"> <input type="radio" name="Pitha" id="Chitoy">Chitoy</label>
+
+          <label for="vapa"><input type="radio" name="Pitha" id="Vapa">Vapa</label>
+
+          <label for="Coconut"><input type="radio" name="Pitha" id="Coconut">Coconut</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select One or more Vortas:</legend>
+            <label for="sorisa">
+                <input type="checkbox" name="Vorta" id="Sorisa">Sorisa Vorta </label>
+
+            <label for="sutki">
+                <input type="checkbox" name="Vorta" id="Sutki">Sutki Vortabr</label>
+
+
+            <label for="fish">
+                <input type="checkbox" name="Vorta" id="Fish">Fish Vorta </label>
+        </fieldset>
+
+        <fieldset>
+        <legend>Special Instructions:</legend> 
+        <textarea name="" id="" cols="15" rows="5"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
